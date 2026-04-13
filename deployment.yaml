@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: argocd-app
-          image: joyboy123/argocd:67d33447658cfb4687d7cf96f07af5f518108cf8
+          image: joyboy123/argocd:7f15ff7b9333c1341e7205e1d74c491faa306b78
           ports:
             - containerPort: 3000
