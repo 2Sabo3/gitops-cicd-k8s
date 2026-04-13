@@ -3,7 +3,7 @@ replicaCount: 2
 
 image:
   repository: joyboy123/argocd
-  tag: "5921ff1efe6a5e543cd4ca82f77a0e905a4f8ed8"
+  tag: "ea6c49f8039efc72c9c9fd81eae90a66bbe6f0f1"
   pullPolicy: IfNotPresent
 
 nameOverride: "argocd-app"
