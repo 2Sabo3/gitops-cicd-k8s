@@ -1,0 +1,16 @@
+namespace: qa
+replicaCount: 2
+
+image:
+  repository: joyboy123/argocd
+  tag: "latest" # 👈 THIS gets updated by CI
+  pullPolicy: IfNotPresent
+
+nameOverride: "argocd-app"
+fullnameOverride: "argocd-app"
+
+service:
+  name: "argocd-service"
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
