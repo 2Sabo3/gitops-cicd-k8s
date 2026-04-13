@@ -3,7 +3,7 @@ replicaCount: 2
 
 image:
   repository: joyboy123/argocd
-  tag: "latest" # 👈 THIS gets updated by CI
+  tag: "ca877164916e7e69c9e09a0b815bfe9a340d625e"
   pullPolicy: IfNotPresent
 
 nameOverride: "argocd-app"
