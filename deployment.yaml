@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
         - name: argocd-app
-          image: joyboy123/argocd:latest   # 👈 THIS gets updated by CI
+          image: joyboy123/argocd:67d33447658cfb4687d7cf96f07af5f518108cf8
           ports:
             - containerPort: 3000
